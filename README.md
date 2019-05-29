@@ -3,7 +3,9 @@
 An efficient histogram equalizer on GPU with C++/CUDA.
 The parallel implementation allows the program to handle big PNG files.
 
+<p align="center">
 ![alt-text-1](./img/cars.png) ![alt-text-2](./img/cars_he.png)
+</p>
 
 ## Requirements
 
