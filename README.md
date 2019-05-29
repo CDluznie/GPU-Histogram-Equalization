@@ -1,10 +1,19 @@
-# GPU-Histogram-Equalizer
+# GPU-Histogram-Equalization
 
-A parallel implementation of histogram equalization on GPU with C++/CUDA.
+An efficient histogram equalizer on GPU with C++/CUDA.
+The parallel implementation allows the program to handle big PNG files.
+
+![alt-text-1](./img/cars.png) ![alt-text-2](./img/cars_he.png)
 
 ## Requirements
-* todo
+
+* g++
+* nvcc
 
 ## Usage
-* compilation todo
-* run todo
+
+* Compilation : `make`
+* Run : `./histogram_equalizer inputImageName outputName`
+    * *inputImageName* : image to process, must be a PNG file
+    * *outputName* : name of the output without extension
+* Delete binaries : `make clean`
